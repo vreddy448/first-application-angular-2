@@ -13,8 +13,8 @@ export class AppService {
 
     postData() {
         return this.http.post('https://reqres.in/api/users', {
-            "name": "venkat",
-            "job": "leader"
+            "name": "random",
+            "job": "developer"
         }).map(res => res.json());
     }
 }
